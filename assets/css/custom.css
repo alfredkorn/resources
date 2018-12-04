@@ -1,0 +1,58 @@
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+/* * * * * * * * * * * * * * * * * * * * * Base Styles * * * * * * * * * * * * * * * * * * * * */
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+html, body {
+	font-size: 16px;
+	font-family: Arial, sans-serif;
+	color: #333;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.cf::before,
+.cf::after {
+    content: " ";
+    display: table;
+}
+.cf::after {
+    clear: both;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+/* * * * * * * * * * * * * * * * * * * * Margins & Padding * * * * * * * * * * * * * * * * * * */
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+.atm1 {
+	margin-top: 1em;
+}
+
+.atm2 {
+	margin-top: 2em;
+}
+
+.abm1 {
+	margin-bottom: 1em;
+}
+
+.abm2 {
+	margin-bottom: 2em;
+}
+
+.atp1 {
+	padding-top: 1em;
+}
+
+.atp2 {
+	padding-top: 2em;
+}
+
+.abp1 {
+	padding-bottom: 1em;
+}
+
+.abp2 {
+	padding-bottom: 2em;
+}
